@@ -29,6 +29,8 @@ public class Main {
         student.upgrade(); //reached A and upgrading again...
         student.upgrade();
         System.out.println("Grade = " + student.getGrade());
+
+        System.out.println("Student Group = " + student.getGroup());
     }
 }
 
